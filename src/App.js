@@ -15,7 +15,7 @@ export default function App() {
       </main>
       < br />
       <footer>
-        Coded by <a href="https://github.com/ana-barreira/dictionary-app" target="_blank"> Ana Barreira </a>
+        Coded by <a href="https://github.com/ana-barreira/dictionary-app" target="_blank" rel="noreferrer"> Ana Barreira </a>
       </footer>
       </div>
     </div>
