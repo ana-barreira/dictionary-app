@@ -36,14 +36,15 @@ setKeyword (event.target.value);
  if(loaded){
   return(
     <div className="Dictionary">
+      <section>
+        <h1>What are you searching for?</h1>
 <form className="d-flex" onSubmit={handleSubmit}>
-      <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" onChange={handleKeywordChange} />
-      <button className="btn btn-outline-success" type="submit">Search</button>
+      <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" onChange={handleKeywordChange} defaultValue={props.defaultKeyword} />
     </form>
     <div className="hint">
       Suggested words: sunrise, forest, hello
     </div>
-    <br />
+    </section>
     <Results results={results} />
     </div>
   );

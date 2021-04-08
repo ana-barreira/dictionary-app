@@ -1,0 +1,10 @@
+.meaning h3 {
+  font-size: 24px;
+  line-height: 1.5;
+  font-weight: bold;
+  font-family: "Kiwi Maru", serif;
+}
+
+.meaning div .definition {
+  font-family: "Kiwi Maru", serif;
+}

@@ -9,14 +9,14 @@ export default function App() {
       <header className="App-header">
       </header>
       <main>
-        <h1>What are you searching for?</h1>
-        < br />
         <Dictionary defaultKeyword="sunset" />
       </main>
       < br />
+      <section>
       <footer>
-        Coded by <a href="https://github.com/ana-barreira/dictionary-app" target="_blank" rel="noreferrer"> Ana Barreira </a>
+        This project was coded by <a href="https://www.linkedin.com/in/ana-barreira-7529b3183/" target="_blank" rel="noreferrer"> Ana Barreira </a> and is <a href="https://github.com/ana-barreira/dictionary-app" target="_blank" rel="noreferrer">open-source on GitHub</a> and hosted on <a href="https://cocky-jennings-0c697e.netlify.app/" target="_blank" rel="noreferrer">Netlify</a>
       </footer>
+      </section>
       </div>
     </div>
   );
