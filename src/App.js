@@ -11,7 +11,7 @@ export default function App() {
       <main>
         <h1>What are you searching for?</h1>
         < br />
-        <Dictionary />
+        <Dictionary defaultKeyword="sunset" />
       </main>
       < br />
       <footer>
