@@ -1,5 +1,6 @@
 body {
   background-image: url("https://secure.img1-fg.wfcdn.com/im/34632366/resize-hundefined-wundefined%5Ecompr-r85/3636/36367035/Balmorhea+Alphabet+33%2527+x+20.5%2522+Wallpaper.jpg");
+  background-size: 100%;
 }
 
 .App .container {
@@ -25,6 +26,6 @@ body {
   max-width: fit-content;
   margin: 0 auto;
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   padding: 10px;
 }
