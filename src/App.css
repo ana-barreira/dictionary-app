@@ -5,6 +5,7 @@ body {
 .App .container {
   margin-top: 100px;
   text-align: left;
+  max-width: 950px;
 }
 
 .App .form-control.me-2 {
